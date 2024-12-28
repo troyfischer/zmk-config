@@ -15,6 +15,7 @@
 #define DEFAULT 0
 #define NUMBERS 1
 #define SYMBOL_1 2
+#define SYMBOL_2 3
 
 
 / {
@@ -37,7 +38,7 @@
     &none &kp Q      &kp W      &kp E       &kp R        &kp T   &kp Y  &kp U        &kp I       &kp O      &kp P          &none
     &none &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F  &kp G   &kp H  &hm RSHFT J  &hm RCTRL K &hm LALT L &hm RGUI SEMI  &none
     &none &kp Z      &kp X      &kp C       &kp V        &kp B   &kp N  &kp M        &kp COMMA   &kp DOT    &kp FSLH       &none
-                  &mt LC(LA(LSHFT)) TAB &kp SPACE &lt NUMBERS ESC   &lt SYMBOL_1 ESC &kp RET &kp BSPC
+                  &mt LC(LA(LSHFT)) TAB &kp SPACE &lt NUMBERS ESC   &lt SYMBOL_1 ESC &lt SYMBOL_2 RET &kp BSPC
                         >;
                 };
 
@@ -55,6 +56,15 @@
     &none &kp LBRC      &kp LPAR      &kp RPAR       &kp RBRC        &kp QMARK          &none       &kp K_VOL_DN  &kp K_VOL_UP       &kp K_MUTE      &none      &none
     &none &kp CARET     &kp EQUAL     &kp UNDER      &kp DLLR        &kp STAR           &kp BSLH    &kp LEFT      &kp DOWN           &kp UP          &kp RIGHT  &none
     &none &kp EXCL      &kp LBKT      &kp RBKT       &kp MINUS       &kp FSLH           &none       &none         &none              &none           &none      &none
+                  &none &none &none    &none &none &none
+                        >;
+                };
+
+                symbol_layer_2 {
+                        bindings = <
+    &none &kp HASH      &kp COLON      &kp SEMI       &kp SQT        &kp DQT      &none       &none  &none  &none  &none  &none
+    &none &kp TILDE     &kp LT         &kp GT         &kp PIPE       &kp BSLH     &kp BSLH    &none  &none  &none  &none  &none
+    &none &kp AT        &kp AMPS       &kp PRCNT      &kp PLUS       &kp DOT      &none       &none  &none  &none  &none  &none
                   &none &none &none    &none &none &none
                         >;
                 };
