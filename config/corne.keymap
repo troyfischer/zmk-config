@@ -53,7 +53,7 @@
                 symbol_layer_1 {
                         bindings = <
     &none &kp LBRC      &kp LPAR      &kp RPAR       &kp RBRC        &kp QMARK          &none       &kp K_VOL_DN  &kp K_VOL_UP       &kp K_MUTE      &none      &none
-    &none &kp K_BACK    &kp EQUAL     &kp UNDER      &kp DLLR        &kp STAR           &kp BSLH    &kp LEFT      &kp DOWN           &kp UP          &kp RIGHT  &none
+    &none &kp CARET     &kp EQUAL     &kp UNDER      &kp DLLR        &kp STAR           &kp BSLH    &kp LEFT      &kp DOWN           &kp UP          &kp RIGHT  &none
     &none &kp EXCL      &kp LBKT      &kp RBKT       &kp MINUS       &kp FSLH           &none       &none         &none              &none           &none      &none
                   &none &none &none    &none &none &none
                         >;
