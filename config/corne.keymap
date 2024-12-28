@@ -31,9 +31,9 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-    &none &kp Q      &kp W      &kp E       &kp R        &kp T   &kp Y  &kp U        &kp I       &kp O      &kp P          &none
-    &none &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F  &kp G   &kp H  &kp RSHFT J  &hm RCTRL K &hm RALT L &hm RGUI SEMI  &none
-    &none &kp Z      &kp X      &kp C       &kp V        &kp B   &kp N  &kp M        &kp COMMA   &kp DOT    &kp FSLH       &none
+    &kp NO &kp Q      &kp W      &kp E       &kp R        &kp T   &kp Y  &kp U        &kp I       &kp O      &kp P          &kp NO
+    &kp NO &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F  &kp G   &kp H  &kp RSHFT J  &hm RCTRL K &hm RALT L &hm RGUI SEMI  &kp NO
+    &kp NO &kp Z      &kp X      &kp C       &kp V        &kp B   &kp N  &kp M        &kp COMMA   &kp DOT    &kp FSLH       &kp NO
                   &kp LC(LA(LSHFT)) &kp SPACE &kp ESC   &kp 2 &kp RET &kp BSPC
                         >;
                 };
