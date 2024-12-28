@@ -62,9 +62,9 @@
 
                 symbol_layer_2 {
                         bindings = <
-    &none &kp HASH      &kp COLON      &kp SEMI       &kp SQT        &kp DQT      &none       &none  &none  &none  &none  &none
-    &none &kp TILDE     &kp LT         &kp GT         &kp PIPE       &kp BSLH     &kp BSLH    &none  &none  &none  &none  &none
-    &none &kp AT        &kp AMPS       &kp PRCNT      &kp PLUS       &kp DOT      &none       &none  &none  &none  &none  &none
+    &none &kp HASH      &kp COLON      &kp SEMI       &kp SQT        &kp DQT      &none   &none  &bt BT_PREV  &bt BT_NXT  &bt BT_CLR  &none
+    &none &kp TILDE     &kp LT         &kp GT         &kp PIPE       &kp BSLH     &none   &none  &none  &none  &none  &none
+    &none &kp AT        &kp AMPS       &kp PRCNT      &kp PLUS       &kp DOT      &none   &none  &none  &none  &none  &none
                   &none &none &none    &none &none &none
                         >;
                 };
