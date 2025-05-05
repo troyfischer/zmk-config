@@ -33,12 +33,18 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
 
-  # Add these cmake-args to the peripherals you wish to use with the dongle
-  #
   - board: nice_nano_v2
     shield: corne_left
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   - board: nice_nano_v2
     shield: corne_right
+
+  # Add these cmake-args to the peripherals you wish to use with the dongle
+  #
+  - board: nice_nano_v2
+    shield: corne_peripheral_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+
+  - board: nice_nano_v2
+    shield: corne_peripheral_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
