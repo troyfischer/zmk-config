@@ -28,11 +28,6 @@
                 flavor = "tap-preferred";
                 bindings = <&kp>, <&kp>;
             };
-            pairing_mode {
-                compatible = "zmk,behavior-bluetooth";
-                label = "BT_PAIR";
-                binding = "BT_PAIR";
-            };
         };
 
         keymap {
